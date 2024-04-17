@@ -1,8 +1,7 @@
 #include <iostream>
 using namespace std;
+#include "ItemToPurchase.h"
 
-
-//Hello, im user 001
 int main(){
 
   return 0;
