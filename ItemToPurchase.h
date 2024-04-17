@@ -4,5 +4,22 @@
 #include <string>
 using namespace std;
 
+class ItemToPurchase {
+public:
+ItemToPurcahase(); // default constructor
+void SetName (const string &name);
+string GetName();
+void SetPrice (int price);
+int GetPrice();
+void SetQuantity (int quantity);
+int GetQuantity();
+
+private:
+string itemName;
+int itemPrice;
+int itemQuantity;
+};
+
+
 
 #endif
