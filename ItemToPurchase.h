@@ -6,7 +6,7 @@ using namespace std;
 
 class ItemToPurchase {
 public:
-ItemToPurcahase(); // default constructor
+ItemToPurchase(); // default constructor
 void SetName (const string &name);
 string GetName();
 void SetPrice (int price);
