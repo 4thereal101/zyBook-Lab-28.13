@@ -18,10 +18,10 @@ itemQuantity = quantity;
 string ItemToPurchase::GetName(){
   return itemName;
 }
-string ItemToPurchase::GetPrice(){
+int ItemToPurchase::GetPrice(){
   return itemPrice;
 }
-string ItemToPurchase::GetQuantity(){
+int ItemToPurchase::GetQuantity(){
   return itemQuantity;
 }
 
